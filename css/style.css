@@ -40,14 +40,14 @@ a{
     content: "";
     display: block;
     position: relative;
-    top: 0.1em;
-    width: 100%;
+    top: 0.3em;
+    width: 0;
     height: 0.1em;
     background-color: white;
-    transition: 0.1s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 .navbar-link:hover::after{
-    top: 0.3em;
+    width: 100%;
 }
 
 
@@ -162,6 +162,7 @@ header{
 
 
 .first, .second, .third, .fourth, .fifth, .sixth{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,12 +170,88 @@ header{
     width: 100%;
     height: auto;
 }
+.second::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.second::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    transform: rotate(180deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.fourth::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    transform: rotate(90deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.fourth::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    transform: rotate(270deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.sixth::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.sixth::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    transform: rotate(180deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+
+
 .section-1 img{
     width: 0;
     height: auto;
     clip-path: polygon(16% 0, 100% 0%, 84% 100%, 0% 100%);
     border-radius: 5em;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.section-1 img:hover{
+    transform: scale(1.05);
 }
 
 
