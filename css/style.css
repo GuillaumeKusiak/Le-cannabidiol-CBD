@@ -51,7 +51,7 @@ a{
 }
 
 
-header{
+.presentation{
     position: relative;
     font-size: 20px;
     background: url("../images/background.jpg") no-repeat fixed center;
@@ -102,27 +102,143 @@ header{
     font-size: 1.3em;
 }
 
-.section-1 {
+.presentation-article{
+    font-size: 20px;
     position: relative;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    font-size: 20px;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 30em);
-    grid-template-rows: repeat(3,25em);
-    grid-template-areas:
-    "first second"
-    "fourth third"
-    "fifth sixth";
-    gap: 3em;
+
 }
+.article-1, .article-2, .article-3{
+    position: relative;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+    gap: 5em;
+}
+
+.first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 30rem;
+}
+.second{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 25rem;
+}
+
+.article-1 .second::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #355E22;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.article-1 .second::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #355E22;
+    transform: rotate(180deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.article-2 .second::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #355E22;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+    transform: rotate(90deg);
+}
+.article-2 .second::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #355E22;
+    transform: rotate(270deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.article-3 .second::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+.article-3 .second::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #355E22;
+    transform: rotate(180deg);
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
+}
+
+.picture-first, .picture-second, .picture-third{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(16% 0, 100% 0%, 84% 100%, 0% 100%);
+    border-radius: 5em;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.picture-first:hover, .picture-second:hover, .picture-third:hover{
+    transform: scale(1.05);
+}
+
+.article-2 .first{
+    order: 2;
+}
+.article-2 .second{
+    order: 1;
+}
+
+
+
 @media screen and (max-width: 1380px)
 {
     .navbar{font-size: 17px}
     header{font-size: 17px}
     .introduction{font-size: 17px}
-    .section-1{font-size: 17px}
+    .presentation-article {font-size: 17px}
 }
 @media screen and (max-width: 700px){
     .header-title{
@@ -133,128 +249,17 @@ header{
         color : white;
         font-weight: 700;
     }
-    header{
+    .presentation{
         clip-path: ellipse(95% 60% at 50% 30%);
         justify-content: center;
     }
-
-    .section-1 {
-        font-size: 13px;
-        grid-template-columns: repeat(1, 30em);
-        grid-template-rows: repeat(6,25em);
-        grid-template-areas:
-        "first"
-        "second"
-        "third"
-        "fourth"
-        "fifth"
-        "sixth";
-        gap: 0;
+    .article-2 .first{
+        order: 1;
+    }
+    .article-2 .second{
+        order: 2;
     }
 }
-.first{grid-area: first}
-.second{grid-area: second}
-.third{grid-area: third}
-.fourth{grid-area: fourth}
-.fifth{grid-area: fifth}
-.sixth{grid-area: sixth}
-
-
-
-.first, .second, .third, .fourth, .fifth, .sixth{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
-.second::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-.second::after{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    transform: rotate(180deg);
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-.fourth::before{
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    transform: rotate(90deg);
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-.fourth::after{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    transform: rotate(270deg);
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-.sixth::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-.sixth::after{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2em;
-    background-color: #355E22;
-    transform: rotate(180deg);
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 100%, 0 0);
-}
-
-
-.section-1 img{
-    width: 0;
-    height: auto;
-    clip-path: polygon(16% 0, 100% 0%, 84% 100%, 0% 100%);
-    border-radius: 5em;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-.section-1 img:hover{
-    transform: scale(1.05);
-}
-
-
 
 .product{
     width: 100%;
@@ -317,4 +322,16 @@ header{
 }
 .product-btn:hover::before{
     height: 100%;
+}
+
+.footer{
+    font-size: 20px;
+    margin-top: 5em;
+    width: 100%;
+    height: 4em;
+    background-color: #355E22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
