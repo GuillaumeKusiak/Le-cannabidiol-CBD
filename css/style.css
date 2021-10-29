@@ -141,6 +141,7 @@ a{
     height: 25rem;
 }
 
+
 .article-1 .second::before{
     position: absolute;
     top: 0;
