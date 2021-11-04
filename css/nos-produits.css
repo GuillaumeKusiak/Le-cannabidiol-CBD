@@ -1,0 +1,218 @@
+body{
+    overflow-x: hidden;
+}
+.nos-articles{
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    background-color: white;
+}
+.nos-articles .start{
+    font-size: 1.2em;
+    display: flex;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: start;
+    padding: 3em;
+    letter-spacing: 0.1em;
+}
+.structure{
+    width: 50em;
+    height: auto;
+    margin: 0 auto 8em auto;
+}
+.brief{
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.description{
+    margin-right: 2em;
+    width: auto;
+    height: 100%;
+}
+.caract-of-product{
+    margin: 1em 0 1em 0;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+}
+.description h3{
+    color: #355E22;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+.description ol{
+    padding-left: 1em;
+}
+.description ol li{
+    list-style-type: circle;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+.price{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.price span{
+    color: #355E22;
+}
+.complet-description{
+    margin: 1em 0 1em 0;
+}
+.complet-description a{
+    color: forestgreen;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+.picture-article{
+    width: 25em;
+    height: 100%;
+    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 87% 100%, 0% 100%);
+}
+.all-infos-first, .all-infos-second, .all-infos-third{
+    display: none;
+}
+.more-information{
+    font-size: 20px;
+    position: relative;
+    margin-top: 3em;
+    width: auto;
+    height: auto;
+}
+
+.more-information h1::before{
+    content: "-";
+}
+.more-information ol{
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.2em;
+    font-size: 1em;
+    letter-spacing: 0.01em;
+}
+
+.more-information h3{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    color: #355E22;
+}
+
+.show-infos{
+    padding: 0.5em;
+    border: 0.1em solid #355E22;
+    font-size: 1.5em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+.show-infos span{
+    position: relative;
+    float: right;
+    font-size: 1em;
+    transition: 0.2s ease-in-out;
+}
+.command{
+    padding: 0.5em;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+    border: 2px solid #355E22;
+}
+.current-stock{
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    color: deepskyblue;
+    letter-spacing: 0.05em;
+}
+
+.quantity{
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+.select-quantity{
+    position: relative;
+    width: 5em;
+    height: 1.2em;
+    font-size: 0.8em;
+}
+.submit{
+    position: relative;
+    z-index: 1;
+    border-radius: 0.2em;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    float: right;
+    background-color: orange;
+    letter-spacing: 0.05em;
+    padding: 0.5em;
+    transition: 0.2s ease-in-out;
+    color: black;
+}
+.submit::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: black;
+    border-radius: 0.2em;
+    transition: 0.2s ease-in-out;
+}
+.submit::after{
+    content: "";
+    position: absolute;
+    border-radius: 0.2em;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 96%;
+    height: 90%;
+    background-color: orange;
+
+
+
+}
+.submit:hover::before{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1300px)
+{
+    .nos-articles, .brief, .more-information {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .nos-articles, .brief, .more-information {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 750px)
+{
+    .structure{
+        margin: 1em;
+        width: auto;
+    }
+    .brief{
+        gap: 2em;
+        justify-content: center;
+    }
+}

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script defer rel="script" src="js/show-description.js"></script>
+    <script defer rel="script" src="js/animation-index.js"></script>
+    <script defer src="https://kit.fontawesome.com/3f0f2f697a.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nos-produits.css">
 
@@ -12,44 +16,298 @@
 </head>
 <body>
 
-    <!-- Menu Navigation -->
+<!-- Menu Navigation -->
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#" class="navbar-link">Accueil</a></li>
-            <li><a href="#" class="navbar-link">Nos produits</a></li>
-            <li><a href="#" class="navbar-link">A propos</a></li>
-            <li><a href="#" class="navbar-link">Contact</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html" class="navbar-link">Accueil</a></li>
+        <li><a href="nos-produits.html" class="navbar-link">Nos produits</a></li>
+        <li><a href="#" class="navbar-link">A propos</a></li>
+        <li><a href="#" class="navbar-link">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- Présentation -->
+<!-- Présentation -->
 
-    <header class="presentation"> 
-        <h2 class="header-title">Le <span>Cannabidiol</span> (CBD)</h2>
+<header class="presentation">
+    <h1 class="header-title">Le <span>Cannabidiol</span> (CBD)</h1>
+</header>
+
+<!-- Présentation des différents produits -->
+
+<main class="nos-articles">
+
+    <!-- Introduction -->
+
+    <header class="start">
+        <h1>Voici nos produits :</h1>
     </header>
 
-    <main class="nos-articles">
+    <!-- block produit-1 -->
 
-        <section class="article">
-            <img src="" alt="">
+    <div class="structure">
+
+        <!-- Brief sur l'article (image + description) -->
+
+        <section class="brief">
+
+            <img class="picture-article" src="images/first.webp" alt="">
+
             <div class="description">
-                <h3>Titre de l'article</h3>
-                <p>Une petite description.</p>
-                <ul>
-                    <li><a href="#">voir la description complète</a></li>
-                </ul>
-                <p>Prix : <span>99.99 €</span></p>
+                <h3>Mango Haze</h3>
+                <p class="caract-of-product">Caractéristiques du produit :</p>
+                <ol>
+                    <li>Type de culture : Indoor</li>
+                    <li>Dominante : Indica</li>
+                    <li>Saveur : Sucrée, fruit tropical, mangue</li>
+                    <li>Consommation : Vaporisation, infusion, cuisine</li>
+                    <li>Taux de CBD : 14,5%</li>
+                    <li>Taux de THC : < 0,2%</li>
+                </ol>
+                <p class="price">Prix : <span>99.99 €</span></p>
+                <h2 class="command">Passez la commande</h2>
+                <p class="current-stock"><i class="fas fa-lock-open"></i> En stock</p>
+                <form class="buy">
+                    <label class="quantity"> Quantité(s)
+                        <select class="select-quantity">
+                            <option>1G</option>
+                            <option>2G</option>
+                            <option>3G</option>
+                            <option>4G</option>
+                            <option>5G</option>
+                        </select>
+                    </label>
+                    <button class="submit" type="submit">Commandez</button>
+                </form>
             </div>
-        </section>
-        
-        <section class="disponibility">
-            
+
         </section>
 
-    </main>
+        <!-- Informations complète sur l'article -->
 
+        <section class="more-information">
 
-    
+            <header>
+                <h1 class="show-infos" onclick="showDescriptions()"> Description de l'article souhaitez : <span><i
+                        class="fas fa-sort-down"></i></span></h1>
+            </header>
+
+            <ol class="all-infos-first">
+                <h3>Mode de culture</h3>
+                <li>La culture de la Mango Haze se fait en indoor, c’est-à-dire dans des serres permettant de contrôler
+                    de nombreux facteurs décisifs à une qualité premium : durée d’exposition à la lumière, humidité,
+                    insectes …
+                    Afin d’avoir la meilleure qualité possible et une saveur authentique, nous utilisons uniquement de
+                    la terre et des engrais organiques.
+                </li>
+                <h3>Dominante</h3>
+                <li>Les fleurs sativa favorisent les activités cérébrales, alors que les fleurs indica produisent plus
+                    facilement un effet de relaxation, calmant le stress et l’humeur.
+                    Dans le CBD il n’y a pas de fleur 100% Sativa ou Indica mais seulement des dominances.
+                    La dominante de la Mango Haze est l’indica.
+                </li>
+                <h3>Saveur</h3>
+                <li>Nous proposons 4 saveurs parmi nos divers différentes variétés.
+                    La Mango Haze possède une saveur sucrée, et plus particulièrement fruité notamment avec un goût de
+                    fruit tropical comme la mangue.
+                </li>
+                <h3>Mode de consommation</h3>
+                <li>Il existe plusieurs manières de consommées du CBD :
+                    En vaporisation : à plus de 170 dégrès.
+                    En infusion : laisser infuser 10 minutes avec un corps gras (huile, lait de soja).
+                    En cuisine : à intégrer dans vos meilleures recettes.
+                </li>
+                <h3>Taux de CBD/THC</h3>
+                <li>La Mango Haze possède un taux CBD de 14,5%. Cette variété est idéale pour régler tout vous vos
+                    problèmes de stress et d’insomnie.
+                    Afin de garantir la conformité avec les normes européennes, nous testons régulièrement nos fleurs
+                    afin que le taux de THC soit inférieur à 0,2% et qu’elle soit légale à la vente ainsi qu’à la
+                    consommation.
+                </li>
+            </ol>
+
+        </section>
+
+    </div>
+    <!-- block produit-2 -->
+
+    <div class="structure">
+
+        <!-- Brief sur l'article (image + description) -->
+
+        <section class="brief">
+
+            <img class="picture-article" src="images/first.webp" alt="">
+
+            <div class="description">
+                <h3>Mango Haze</h3>
+                <p class="caract-of-product">Caractéristiques du produit :</p>
+                <ol>
+                    <li>Type de culture : Indoor</li>
+                    <li>Dominante : Indica</li>
+                    <li>Saveur : Sucrée, fruit tropical, mangue</li>
+                    <li>Consommation : Vaporisation, infusion, cuisine</li>
+                    <li>Taux de CBD : 14,5%</li>
+                    <li>Taux de THC : < 0,2%</li>
+                </ol>
+                <p class="price">Prix : <span>99.99 €</span></p>
+                <h2 class="command">Passez la commande</h2>
+                <p class="current-stock"><i class="fas fa-lock-open"></i> En stock</p>
+                <form class="buy">
+                    <label class="quantity"> Quantité(s)
+                        <select class="select-quantity">
+                            <option>1G</option>
+                            <option>2G</option>
+                            <option>3G</option>
+                            <option>4G</option>
+                            <option>5G</option>
+                        </select>
+                    </label>
+                    <button class="submit" type="submit">Commandez</button>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- Informations complète sur l'article -->
+
+        <section class="more-information">
+
+            <header>
+                <h1 class="show-infos" onclick="showDescriptions()"> Description de l'article souhaitez : <span><i
+                        class="fas fa-sort-down"></i></span></h1>
+            </header>
+
+            <ol class="all-infos-second">
+                <h3>Mode de culture</h3>
+                <li>La culture de la Mango Haze se fait en indoor, c’est-à-dire dans des serres permettant de contrôler
+                    de nombreux facteurs décisifs à une qualité premium : durée d’exposition à la lumière, humidité,
+                    insectes …
+                    Afin d’avoir la meilleure qualité possible et une saveur authentique, nous utilisons uniquement de
+                    la terre et des engrais organiques.
+                </li>
+                <h3>Dominante</h3>
+                <li>Les fleurs sativa favorisent les activités cérébrales, alors que les fleurs indica produisent plus
+                    facilement un effet de relaxation, calmant le stress et l’humeur.
+                    Dans le CBD il n’y a pas de fleur 100% Sativa ou Indica mais seulement des dominances.
+                    La dominante de la Mango Haze est l’indica.
+                </li>
+                <h3>Saveur</h3>
+                <li>Nous proposons 4 saveurs parmi nos divers différentes variétés.
+                    La Mango Haze possède une saveur sucrée, et plus particulièrement fruité notamment avec un goût de
+                    fruit tropical comme la mangue.
+                </li>
+                <h3>Mode de consommation</h3>
+                <li>Il existe plusieurs manières de consommées du CBD :
+                    En vaporisation : à plus de 170 dégrès.
+                    En infusion : laisser infuser 10 minutes avec un corps gras (huile, lait de soja).
+                    En cuisine : à intégrer dans vos meilleures recettes.
+                </li>
+                <h3>Taux de CBD/THC</h3>
+                <li>La Mango Haze possède un taux CBD de 14,5%. Cette variété est idéale pour régler tout vous vos
+                    problèmes de stress et d’insomnie.
+                    Afin de garantir la conformité avec les normes européennes, nous testons régulièrement nos fleurs
+                    afin que le taux de THC soit inférieur à 0,2% et qu’elle soit légale à la vente ainsi qu’à la
+                    consommation.
+                </li>
+            </ol>
+
+        </section>
+
+    </div>
+    <!-- block produit-3 -->
+
+    <div class="structure">
+
+        <!-- Brief sur l'article (image + description) -->
+
+        <section class="brief">
+
+            <img class="picture-article" src="images/first.webp" alt="">
+
+            <div class="description">
+                <h3>Mango Haze</h3>
+                <p class="caract-of-product">Caractéristiques du produit :</p>
+                <ol>
+                    <li>Type de culture : Indoor</li>
+                    <li>Dominante : Indica</li>
+                    <li>Saveur : Sucrée, fruit tropical, mangue</li>
+                    <li>Consommation : Vaporisation, infusion, cuisine</li>
+                    <li>Taux de CBD : 14,5%</li>
+                    <li>Taux de THC : < 0,2%</li>
+                </ol>
+                <p class="price">Prix : <span>99.99 €</span></p>
+                <h2 class="command">Passez la commande</h2>
+                <p class="current-stock"><i class="fas fa-lock-open"></i> En stock</p>
+                <form class="buy">
+                    <label class="quantity"> Quantité(s)
+                        <select class="select-quantity">
+                            <option>1G</option>
+                            <option>2G</option>
+                            <option>3G</option>
+                            <option>4G</option>
+                            <option>5G</option>
+                        </select>
+                    </label>
+                    <button class="submit" type="submit">Commandez</button>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- Informations complète sur l'article -->
+
+        <section class="more-information">
+
+            <header>
+                <h1 class="show-infos" onclick="showDescriptions()"> Description de l'article souhaitez : <span><i
+                        class="fas fa-sort-down"></i></span></h1>
+            </header>
+
+            <ol class="all-infos-third">
+                <h3>Mode de culture</h3>
+                <li>La culture de la Mango Haze se fait en indoor, c’est-à-dire dans des serres permettant de contrôler
+                    de nombreux facteurs décisifs à une qualité premium : durée d’exposition à la lumière, humidité,
+                    insectes …
+                    Afin d’avoir la meilleure qualité possible et une saveur authentique, nous utilisons uniquement de
+                    la terre et des engrais organiques.
+                </li>
+                <h3>Dominante</h3>
+                <li>Les fleurs sativa favorisent les activités cérébrales, alors que les fleurs indica produisent plus
+                    facilement un effet de relaxation, calmant le stress et l’humeur.
+                    Dans le CBD il n’y a pas de fleur 100% Sativa ou Indica mais seulement des dominances.
+                    La dominante de la Mango Haze est l’indica.
+                </li>
+                <h3>Saveur</h3>
+                <li>Nous proposons 4 saveurs parmi nos divers différentes variétés.
+                    La Mango Haze possède une saveur sucrée, et plus particulièrement fruité notamment avec un goût de
+                    fruit tropical comme la mangue.
+                </li>
+                <h3>Mode de consommation</h3>
+                <li>Il existe plusieurs manières de consommées du CBD :
+                    En vaporisation : à plus de 170 dégrès.
+                    En infusion : laisser infuser 10 minutes avec un corps gras (huile, lait de soja).
+                    En cuisine : à intégrer dans vos meilleures recettes.
+                </li>
+                <h3>Taux de CBD/THC</h3>
+                <li>La Mango Haze possède un taux CBD de 14,5%. Cette variété est idéale pour régler tout vous vos
+                    problèmes de stress et d’insomnie.
+                    Afin de garantir la conformité avec les normes européennes, nous testons régulièrement nos fleurs
+                    afin que le taux de THC soit inférieur à 0,2% et qu’elle soit légale à la vente ainsi qu’à la
+                    consommation.
+                </li>
+            </ol>
+
+        </section>
+
+    </div>
+</main>
+
+<!-- Footer -->
+
+<footer class="footer">
+    <h2>Footer</h2>
+</footer>
+
 </body>
 </html>
