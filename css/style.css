@@ -14,13 +14,13 @@ a{
 }
 
 .navbar{
+    font-size: 20px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 5;
     width: 100%;
     height: 4em;
-    font-size: 20px;
     background: url("../images/background.jpg") no-repeat fixed center;
     transition: 0.5s ease-in-out;
 }
@@ -101,7 +101,6 @@ a{
 }
 
 .presentation-article{
-    font-size: 20px;
     position: relative;
     z-index: 2;
     display: flex;
@@ -110,6 +109,7 @@ a{
 
 }
 .article-1, .article-2, .article-3{
+    font-size: 18px;
     position: relative;
     padding: 1em;
     display: flex;
@@ -126,8 +126,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25rem;
-    width: 30rem;
+    height: 25em;
+    width: 30em;
 }
 .second{
     position: relative;
@@ -135,8 +135,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30rem;
-    height: 25rem;
+    width: 30em;
+    height: 25em;
 }
 
 
@@ -230,36 +230,6 @@ a{
     order: 1;
 }
 
-
-
-@media screen and (max-width: 1380px)
-{
-    .navbar{font-size: 17px}
-    header{font-size: 17px}
-    .introduction{font-size: 17px}
-    .presentation-article {font-size: 17px}
-}
-@media screen and (max-width: 700px){
-    .header-title{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .header-title span{
-        color : white;
-        font-weight: 700;
-    }
-    .presentation{
-        clip-path: ellipse(95% 60% at 50% 30%);
-        justify-content: center;
-    }
-    .article-2 .first{
-        order: 1;
-    }
-    .article-2 .second{
-        order: 2;
-    }
-}
-
 .product{
     width: 100%;
     height: 100%;
@@ -269,12 +239,12 @@ a{
 }
 
 .product-h3{
-    font-size: 1.5em;
+    font-size: 1.8em;
     letter-spacing: 0.05em;
 }
 .product-p{
     margin-top: 1em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
     letter-spacing: 0.03em;
 }

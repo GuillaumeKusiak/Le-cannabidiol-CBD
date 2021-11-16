@@ -1,0 +1,17 @@
+.apropos{
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.teams{
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.para-infos{
+    letter-spacing: 0.01em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
