@@ -16,28 +16,31 @@
     top: 3.5em;
     right: 0;
     width: 0;
-    height: auto;
-    text-align: center;
+    height: 15em;
     transition: 0.3s ease-in-out;
 }
 .responsive-nav-link{
+    width: 100%;
+    height: 100%;
     display: none;
-    transition: 0.3s ease-in-out;
+    flex-direction: column;
 }
 .responsive-link{
-    padding: 1em;
-    border: 2px solid white;
-    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
 }
 .responsive-link:hover{
     background-color: white;
 }
-.responsive-link:hover a{
+.responsive-link:hover a {
     color: #355E22;
 }
-.responsive-navbar a{
+.responsive-link a{
+    color: white;
     font-size: 1em;
     letter-spacing: 0.1em;
-    color: white;
 }
-
