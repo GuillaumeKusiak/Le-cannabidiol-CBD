@@ -57,10 +57,9 @@
         margin-bottom: 5em;
     }
 }
-
 @media screen and (max-width: 700px){
-    .presentation{font-size: 15px}
-    .introduction{font-size: 15px}
+    .presentation{font-size: 13px}
+    .introduction{font-size: 13px}
     .article-1,.article-2,.article-3{font-size: 10px}
     .header-title{
         margin-top: 0;
@@ -76,12 +75,12 @@
     }
     .article-2 .first{order: 1}
     .article-2 .second{order: 2}
-    .apropos{font-size: 17px}
-    .main{font-size: 11px}
+    .apropos{font-size: 13px}
+    .main{font-size: 10px}
     .contact{font-size: 16px}
-    .input{padding: 1em 0 1em 2em}
+    .input{padding: 0.8em 0 0.8em 1.8em}
     .textarea{
-        padding: 1em 0 1em 1.5em;
+        padding: 0.8em 0 0.8em 1.3em;
         height: 7em;
     }
     .button{ padding: 1em 0 1em 0;}
@@ -89,6 +88,9 @@
     .title-form{font-size: 1.8em}
     .show-infos{font-size: 1.2em}
     .all-infos-first li ,.all-infos-second li,.all-infos-third li{font-size: 1.1em}
+    .navbar-link {display: none}
+    .navbar i{display: flex}
+    .responsive-navbar{font-size: 17px}
 }
 @media screen and (max-width: 320px)
 {

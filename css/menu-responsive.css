@@ -1,0 +1,42 @@
+.navbar i{
+    font-size: 40px;
+    position: absolute;
+    display: none;
+    color: white;
+    top: 20%;
+    right: 5%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.responsive-navbar{
+    font-size: 20px;
+    background-color: rgb(92, 137, 56);
+    z-index: 3;
+    position: absolute;
+    top: 3.5em;
+    right: 0;
+    width: 0;
+    height: auto;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.responsive-navbar ul{
+    transition: 0.3s ease-in-out;
+}
+.responsive-link{
+    padding: 1em;
+    transition: 0.2s ease-in-out;
+    border: 2px solid white;
+}
+.responsive-link:hover{
+    background-color: white;
+}
+.responsive-link:hover a{
+    color: #355E22;
+}
+.responsive-navbar a{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: white;
+}
+

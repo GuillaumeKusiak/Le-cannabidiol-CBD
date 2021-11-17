@@ -11,7 +11,12 @@
     font-size: 1.5em;
 }
 .para-infos{
-    letter-spacing: 0.01em;
+    letter-spacing: 0.05em;
     margin-bottom: 1em;
     font-size: 1.1em;
+}
+.authors li{
+    font-size: 1.2em;
+    list-style-type: circle;
+    margin-left: 2em;
 }
