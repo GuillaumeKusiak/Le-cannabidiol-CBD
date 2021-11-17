@@ -3,10 +3,12 @@ function responsiveMenu() {
     {
         document.querySelector('.navbar i').style.transform = 'rotate(0deg)'
         document.querySelector('.responsive-navbar').style.width = '0';
+        document.querySelector('.responsive-nav-link').style.display = 'none';
     }
     else{
         document.querySelector('.navbar i').style.transform = 'rotate(90deg)'
         document.querySelector('.responsive-navbar').style.width = '100%';
+        document.querySelector('.responsive-nav-link').style.display = 'block';
     }
 }
 
