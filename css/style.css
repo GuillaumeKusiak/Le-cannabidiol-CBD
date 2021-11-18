@@ -10,7 +10,6 @@ li{
 }
 a{
     text-decoration: none;
-    color: black;
 }
 body{
     overflow-x: hidden;
@@ -99,8 +98,13 @@ body{
     font-weight: 700;
 }
 .intro-p{
+    margin-top: 1em;
+    line-height: 1em;
     text-align: center;
     font-size: 1.3em;
+}
+.intro-p a{
+    color: #355E22;
 }
 
 .presentation-article{
