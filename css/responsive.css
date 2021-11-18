@@ -91,6 +91,7 @@
     .navbar-link {display: none}
     .navbar i{display: flex}
     .responsive-navbar{font-size: 17px}
+    .start{width: auto;}
 }
 @media screen and (max-width: 320px)
 {
