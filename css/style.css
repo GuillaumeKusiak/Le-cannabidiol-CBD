@@ -310,24 +310,24 @@ body{
     align-items: center;
     gap: 4em;
 }
-.copyright, .others-links, .contact{
+.copyright, .others-links, .coordonnees{
     margin: 2em 0 2em 0;
 }
-.copyright h2, .others-links h2, .contact h2{
+.copyright h2, .others-links h2, .coordonnees h2{
     font-size: 1.2em;
 }
 .copyright h2:nth-child(2){
     margin-top: 1em;
     font-size: 1em;
 }
-.others-links a, .contact a{
+.others-links a, .coordonnees a{
     color: white;
     font-size: 0.8em;
     cursor: pointer;
 }
-.others-links ul, .contact ul{
+.others-links ul, .coordonnees ul{
     margin: 1em 0 0 1.5em;
 }
-.others-links li, .title-info{
+.others-links li, .title-info-footer{
     list-style-type: circle;
 }
