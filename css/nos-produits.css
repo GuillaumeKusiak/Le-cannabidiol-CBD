@@ -2,7 +2,7 @@
     position: relative;
     z-index: 2;
     font-size: 20px;
-    background-color: white;
+    background-color: var(--white);
 }
 .start{
     font-size: 1.2em;
@@ -39,7 +39,7 @@
     letter-spacing: 0.05em;
 }
 .description h2{
-    color: #355E22;
+    color: var(--second-green);
     font-size: 2em;
     letter-spacing: 0.1em;
 }
@@ -59,13 +59,13 @@
     letter-spacing: 0.1em;
 }
 .price span{
-    color: #355E22;
+    color: var(--second-green);
 }
 .complet-description{
     margin: 1em 0 1em 0;
 }
 .complet-description a{
-    color: forestgreen;
+    color: var(--green);
     font-size: 1em;
     letter-spacing: 0.05em;
 }
@@ -106,13 +106,13 @@
     padding-top: 1em;
     font-size: 1.2em;
     letter-spacing: 0.05em;
-    color: #355E22;
+    color: var(--second-green);
 }
 
 .show-infos{
     position: relative;
     padding: 0.5em;
-    border: 0.1em solid #355E22;
+    border: 0.1em solid var(--second-green);
     font-size: 1.5em;
     cursor: pointer;
     letter-spacing: 0.1em;
@@ -128,12 +128,12 @@
     font-size: 1.5em;
     letter-spacing: 0.05em;
     margin-bottom: 0.5em;
-    border: 2px solid #355E22;
+    border: 2px solid var(--second-green);
 }
 .current-stock{
     margin-bottom: 0.5em;
     font-size: 1em;
-    color: deepskyblue;
+    color: var(--blue);
     letter-spacing: 0.05em;
 }
 
@@ -156,11 +156,11 @@
     border: none;
     font-size: 1em;
     float: right;
-    background-color: orange;
+    background-color: var(--orange);
     letter-spacing: 0.05em;
     padding: 0.5em;
     transition: 0.2s ease-in-out;
-    color: black;
+    color: var(--black);
     margin-left: 2em;
 }
 .submit::before{
@@ -172,7 +172,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: black;
+    background-color: var(--black);
     border-radius: 0.2em;
     transition: 0.2s ease-in-out;
 }
@@ -186,11 +186,9 @@
     transform: translate(-50%,-50%);
     width: 96%;
     height: 90%;
-    background-color: orange;
-
-
-
+    background-color: var(--orange);
 }
+
 .submit:hover::before{
     width: 100%;
 }
