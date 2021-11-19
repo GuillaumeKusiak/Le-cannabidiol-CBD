@@ -26,8 +26,7 @@ body{
     background-image: url("../images/background.jpg");
     background-position: center;
     background-attachment: fixed;
-    background-repeat-x: no-repeat;
-    background-repeat-y: repeat;
+    background-repeat: no-repeat;
     transition: 0.5s ease-in-out;
 }
 .navbar ul{
@@ -62,8 +61,7 @@ body{
     background-image: url("../images/background.jpg");
     background-position: center;
     background-attachment: fixed;
-    background-repeat-x: no-repeat;
-    background-repeat-y: repeat;
+    background-repeat: no-repeat;
     height: 30em;
     clip-path: ellipse(75% 60% at 50% 30%);
     display: flex;
