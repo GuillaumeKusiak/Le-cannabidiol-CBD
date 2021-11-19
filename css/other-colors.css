@@ -10,3 +10,6 @@
     --green : rgb(92, 97, 56);
     --blue : rgb(255, 165, 0);
 }
+.presentation{
+    background-image: url("../images/reversebackground.jpg");
+}

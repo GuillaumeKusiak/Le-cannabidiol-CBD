@@ -56,7 +56,6 @@ body{
 .presentation{
     position: relative;
     font-size: 20px;
-    background-image: url("../images/background.jpg");
     background-position: center top;
     background-attachment: fixed;
     height: 30em;
