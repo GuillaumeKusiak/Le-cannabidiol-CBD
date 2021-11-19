@@ -55,7 +55,7 @@ body{
 .presentation{
     position: relative;
     font-size: 20px;
-    background: url("../images/background.jpg") no-repeat fixed center;
+    background: url("../images/background.jpg") /*no-repeat fixed center*/;
     height: 30em;
     clip-path: ellipse(75% 60% at 50% 30%);
     display: flex;
