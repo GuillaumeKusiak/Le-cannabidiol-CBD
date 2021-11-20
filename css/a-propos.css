@@ -4,6 +4,7 @@
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    color: var(--black);
 }
 .teams{
     letter-spacing: 0.1em;

@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: var(--font);
 }
 li{
     list-style-type: none;
@@ -15,6 +14,7 @@ a{
 body{
     overflow-x: hidden;
     background-color: var(--white);
+    font-weight: 400;
 }
 .navbar{
     font-size: 20px;
@@ -90,6 +90,7 @@ body{
     justify-content: center;
     align-items: center;
     line-height: 3em;
+    margin-bottom: 2em;
 }
 .intro-h1{
     font-size: 2em;
@@ -129,6 +130,7 @@ body{
     background-color: var(--white);
     height: auto;
     gap: 5em;
+    margin-bottom: 2em;
 }
 
 .first{
@@ -224,7 +226,6 @@ body{
 .picture-first, .picture-second, .picture-third{
     width: 0;
     height: auto;
-    clip-path: polygon(16% 0, 100% 0%, 84% 100%, 0% 100%);
     border-radius: 5em;
     transition: 0.3s ease-in-out;
     cursor: pointer;
@@ -260,14 +261,14 @@ body{
 }
 .product-p span{
     color : var(--main-green);
-    font-size: 1.2rem;
+    font-size: 1em;
     font-weight: bold;
 }
 .product-data{
     margin-top: 1em;
 }
 .product-data li{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     list-style-type: circle;
     letter-spacing: 0.03em;
     color : rgb(65, 46, 35);
@@ -353,4 +354,12 @@ body{
 }
 .button-style:hover{
     background-color: var(--white);
+}
+
+.source{
+    position: absolute;
+    font-size: 0.7em;
+    top: 90%;
+    right: 0;
+    transform: translate(-50%,-50%);
 }
