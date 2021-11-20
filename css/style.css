@@ -224,6 +224,7 @@ body{
 }
 
 .picture-first, .picture-second, .picture-third{
+    position: relative;
     width: 0;
     height: auto;
     border-radius: 5em;
@@ -317,10 +318,10 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-.copyright, .others-links, .coordonnees{
+.copyright, .others-links, .coordinates{
     margin: 2em 0 2em 0;
 }
-.copyright h2, .others-links h2, .coordonnees h2{
+.copyright h2, .others-links h2, .coordinates h2{
     font-size: 1.2em;
 }
 .copyright h2:nth-child(2){
@@ -328,12 +329,12 @@ body{
     margin-bottom: 1em;
     font-size: 1em;
 }
-.others-links a, .coordonnees a{
+.others-links a, .coordinates a{
     color: var(--white);
     font-size: 0.8em;
     cursor: pointer;
 }
-.others-links ul, .coordonnees ul{
+.others-links ul, .coordinates ul{
     margin: 1em 0 0 1.5em;
 }
 .others-links li, .title-info-footer{

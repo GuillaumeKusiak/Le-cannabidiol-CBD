@@ -31,3 +31,14 @@
     --font : 'Yanone Kaffeesatz', sans-serif;
 }
 .presentation{background-image: url("../images/normal/background.jpg");}
+.picture-first{content: url("../images/normal/mangohaze.jpeg");}
+.picture-second{content: url("../images/normal/huile.jpeg");}
+.picture-third{content: url("../images/normal/thé.jpeg");}
+
+#picture-mangohaze{content: url("../images/normal/mangohaze.jpeg");}
+#picture-huile{content: url("../images/normal/huile.jpeg");}
+#picture-the{content: url("../images/normal/thé.jpeg");}
+
+.facebook img{content: url("../images/normal/facebook.png");}
+.instagram img{content: url("../images/normal/instagram.png");}
+.twitter img{content: url("../images/normal/twitter.png");}
