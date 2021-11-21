@@ -32,11 +32,11 @@
 .presentation{background-image: url("../images/inverse/reversebackground.jpg");}
 .picture-first{content: url("../images/inverse/mangohaze.jpeg");}
 .picture-second{content: url("../images/inverse/huile.jpeg");}
-.picture-third{content: url("../images/inverse/thé.jpeg");}
+.picture-third{content: url("../images/inverse/the.jpeg");}
 
 #picture-mangohaze{content: url("../images/inverse/mangohaze.jpeg");}
 #picture-huile{content: url("../images/inverse/huile.jpeg");}
-#picture-the{content: url("../images/inverse/thé.jpeg");}
+#picture-the{content: url("../images/inverse/the.jpeg");}
 
 .facebook img{content: url("../images/inverse/facebook.png");}
 .instagram img{content: url("../images/inverse/instagram.png");}
