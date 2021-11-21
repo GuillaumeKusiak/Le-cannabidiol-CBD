@@ -136,6 +136,7 @@ body{
     align-items: center;
     height: 25em;
     width: 30em;
+    margin-bottom: 2em;
 }
 .second{
     position: relative;
@@ -309,16 +310,4 @@ body{
 .source2{
     margin-top: 1em;
     font-size: 0.7em;
-}
-/* Ancrage */
-.ancrage{
-    display: none;
-    position: fixed;
-    z-index: 5;
-    right: 0;
-    transform: translate(-50%,-50%);
-    color: black;
-    font-size: 2em;
-    border: 2px solid black;
-    padding: 0.5em;
 }
