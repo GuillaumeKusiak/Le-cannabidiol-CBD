@@ -86,7 +86,7 @@
         font-size: 17px;
         flex-direction: column;
         }
-    .picture-article{width: 5em}
+    .picture-article{width: 16em}
 }
 @media screen and (max-width: 320px)
 {

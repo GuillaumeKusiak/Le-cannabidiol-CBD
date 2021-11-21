@@ -62,9 +62,15 @@
     font-size: 1em;
     letter-spacing: 0.05em;
 }
+/******* */
+
 .picture-article{
+    cursor: pointer;
     width: 25em;
 }
+/* *** */
+
+
 .more-information{
     font-size: 20px;
     position: relative;

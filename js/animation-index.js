@@ -19,3 +19,4 @@ function navbarStyle(){
     this.scrollY > 1100 ? document.querySelector(".picture-third").style.width = "100%" : "";
 }
 window.addEventListener("scroll", navbarStyle, false);
+
