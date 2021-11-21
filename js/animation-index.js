@@ -6,6 +6,7 @@ function responsiveMenu() {
         document.querySelector('.responsive-nav-link').style.display = 'none';
     }
     else{
+        window.scrollTo(0,0)
         document.querySelector('.navbar i').style.transform = 'rotate(90deg)'
         document.querySelector('.responsive-navbar').style.width = '100%';
         document.querySelector('.responsive-nav-link').style.display = 'flex';

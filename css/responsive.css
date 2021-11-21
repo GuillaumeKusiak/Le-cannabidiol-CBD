@@ -13,9 +13,7 @@
     }
     .main{font-size: 15px}
     .contact{font-size: 18px}
-    .nos-articles, .brief, .more-information {
-        font-size: 15px;
-    }
+    .nos-articles, .brief, .more-information {font-size: 15px;}
 }
 @media screen and (max-width: 1050px)
 {
@@ -24,12 +22,8 @@
 
 @media screen and (max-width: 900px)
 {
-    .nos-articles, .brief, .more-information {
-        font-size: 14px;
-    }
-    .all-infos-first li, .all-infos-second li, .all-infos-third li{
-        font-size: 1.3em;
-    }
+    .nos-articles, .brief, .more-information {font-size: 14px;}
+    .all-infos-first li, .all-infos-second li, .all-infos-third li{font-size: 1.3em;}
 }
 
 @media screen and (max-width: 890px)
@@ -50,15 +44,15 @@
         gap: 2em;
         justify-content: center;
     }
-    .picture-article{
-        width: 20em;
-    }
-    .all-infos-first, .all-infos-second, .all-infos-third{
-        margin-bottom: 5em;
-    }
+    .picture-article{width: 20em;}
+    .all-infos-first, .all-infos-second, .all-infos-third{margin-bottom: 5em;}
 }
 @media screen and (max-width: 700px){
-    .presentation{font-size: 13px}
+    .presentation{
+        font-size: 13px;
+        clip-path: ellipse(95% 60% at 50% 30%);
+        justify-content: center;
+    }
     .introduction{font-size: 13px}
     .article-1,.article-2,.article-3{font-size: 10px}
     .header-title{
@@ -68,10 +62,6 @@
     .header-title span{
         color : var(--white);
         font-weight: 700;
-    }
-    .presentation{
-        clip-path: ellipse(95% 60% at 50% 30%);
-        justify-content: center;
     }
     .article-2 .first{order: 1}
     .article-2 .second{order: 2}
@@ -96,6 +86,7 @@
         font-size: 17px;
         flex-direction: column;
         }
+    .picture-article{width: 16em}
 }
 @media screen and (max-width: 320px)
 {

@@ -1,11 +1,11 @@
 function changeStyle() {
     let link = document.querySelector('.style');
-    if (link.getAttribute("href") === 'css/colors.css')
+    if (link.getAttribute("href") === 'css/theme-first.css')
     {
-        link.href = 'css/other-colors.css';
+        link.href = 'css/theme-second.css';
     }
     else
     {
-        link.href = 'css/colors.css';
+        link.href = 'css/theme-first.css';
     }
 }

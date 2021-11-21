@@ -30,6 +30,16 @@
     --blue : deepskyblue;
     --font : 'Yanone Kaffeesatz', sans-serif;
 }
+.footer{flex-flow: row wrap;}
+.article-1,.article-2,.article-3{flex-flow: row wrap;}
+.form form{flex-direction: column;}
+.socials{flex-direction: column;}
+.main{flex-flow: row wrap;}
+.apropos{flex-direction: column;}
+.brief{flex-flow: row wrap;}
+.description{flex-direction: column;}
+.navbar ul{flex-direction: row;}
+
 .presentation{background-image: url("../images/normal/background.jpg");}
 .picture-first{content: url("../images/normal/mangohaze.jpeg");}
 .picture-second{content: url("../images/normal/huile.jpeg");}

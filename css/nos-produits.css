@@ -1,6 +1,5 @@
 .nos-articles{
     position: relative;
-    z-index: 2;
     font-size: 20px;
     background-color: var(--white);
 }
@@ -8,29 +7,24 @@
     font-size: 1.2em;
     display: flex;
     width: 50em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
     justify-content: start;
     padding: 3em;
     letter-spacing: 0.1em;
 }
 .structure{
     width: 50em;
-    height: auto;
     margin: 0 auto 8em auto;
 }
 .brief{
     font-size: 20px;
     position: relative;
-    width: auto;
-    height: auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .description{
+    display: flex;
     margin-right: 2em;
-    width: auto;
     height: 100%;
 }
 .caract-of-product{
@@ -52,8 +46,7 @@
     letter-spacing: 0.05em;
 }
 .price{
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em 0 1em 0;
     font-weight: bold;
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -71,16 +64,12 @@
 }
 .picture-article{
     width: 25em;
-    height: 100%;
 }
 .more-information{
     font-size: 20px;
     position: relative;
     margin-top: 3em;
-    width: auto;
-    height: auto;
 }
-
 .all-infos-first, .all-infos-second, .all-infos-third{
     display: none;
 }
@@ -88,28 +77,19 @@
     font-size: 1em;
     letter-spacing: 0.05em;
 }
-
-.more-information h1::before{
-    content: "-";
-}
 .more-information ol{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 0 5%;
     line-height: 1.2em;
     font-size: 1em;
     letter-spacing: 0.01em;
 }
-
 .more-information h3{
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding: 1em 0 1em 0;
     font-size: 1.2em;
     letter-spacing: 0.05em;
     color: var(--second-green);
 }
-
 .show-infos{
-    position: relative;
     padding: 0.5em;
     border: 0.1em solid var(--second-green);
     font-size: 1.5em;
@@ -117,7 +97,6 @@
     letter-spacing: 0.1em;
 }
 .show-infos span{
-    position: relative;
     float: right;
     font-size: 1em;
     transition: 0.2s ease-in-out;
@@ -135,14 +114,11 @@
     color: var(--blue);
     letter-spacing: 0.05em;
 }
-
 .quantity{
     font-size: 1.2em;
     letter-spacing: 0.05em;
 }
-
 .select-quantity{
-    position: relative;
     width: 5em;
     height: 1.2em;
     font-size: 0.8em;
@@ -187,7 +163,6 @@
     height: 90%;
     background-color: var(--orange);
 }
-
 .submit:hover::before{
     width: 100%;
 }

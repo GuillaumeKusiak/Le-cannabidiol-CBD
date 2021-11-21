@@ -20,6 +20,15 @@
     --blue : rgb(255, 165, 0);
     --font : 'Shadows Into Light', cursive;
 }
+.footer{flex-flow: row-reverse wrap;}
+.article-1,.article-2,.article-3{flex-flow: row-reverse wrap;}
+.form form{flex-direction: column-reverse;}
+.socials{flex-direction: column-reverse;}
+.main{flex-flow: row-reverse wrap;}
+.apropos{flex-direction: column-reverse;}
+.brief{flex-flow: row-reverse wrap;}
+.description{flex-direction: column-reverse;}
+.navbar ul{flex-direction: row-reverse;}
 .presentation{background-image: url("../images/inverse/reversebackground.jpg");}
 .picture-first{content: url("../images/inverse/mangohaze.jpeg");}
 .picture-second{content: url("../images/inverse/huile.jpeg");}

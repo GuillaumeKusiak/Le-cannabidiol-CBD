@@ -1,5 +1,5 @@
 .navbar i{
-    font-size: 40px;
+    font-size: 2em;
     position: absolute;
     display: none;
     color: white;
@@ -10,10 +10,10 @@
 }
 .responsive-navbar{
     font-size: 20px;
-    background-color: rgb(92, 137, 56);
+    background-color: var(--second-green);
     z-index: 3;
     position: absolute;
-    top: 3.5em;
+    top: 4em;
     right: 0;
     width: 0;
     height: 15em;
@@ -38,7 +38,7 @@
 .responsive-link:hover{
     background-color: white;
 }
-.responsive-link:hover a {
+.responsive-link:hover a{
     color: #355E22;
 }
 .responsive-link a{
