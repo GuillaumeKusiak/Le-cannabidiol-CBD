@@ -44,7 +44,10 @@
         gap: 2em;
         justify-content: center;
     }
-    .picture-article{width: 20em;}
+    .picture-article{
+        width: 20em;
+        height: 20em;
+    }
     .all-infos-first, .all-infos-second, .all-infos-third{margin-bottom: 5em;}
 }
 @media screen and (max-width: 700px){
@@ -86,7 +89,9 @@
         font-size: 17px;
         flex-direction: column;
         }
-    .picture-article{width: 16em}
+    .picture-article{
+        width: 16em;
+        height: 16em}
 }
 @media screen and (max-width: 320px)
 {
