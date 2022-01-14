@@ -1,15 +1,19 @@
-# le-cannabidiol-cbd
-> Site web pour la ressource R1.02 Création de site web
+# Web Site : 🌿 Le Cannabidiol CBD
+> Web Site for the R1.02 ressource which that is entitled "Web interface development" (BUT Informatique of Aix-En-Provence)
+#### Mark : 17 / 20
 
-## Voici le lien pour le site web :
-[le-cannabidiol-cbd](https://gui-univ.github.io/le-cannabidiol-cbd/)
+### 🔗 Web Site link : [Le Cannabidiol / Accueil](https://gui-univ.github.io/Le-cannabidiol-CBD/)
 
-### Acteurs du projet :
-1. Autant Felix
-2. Charlier Lucas
-3. Kusiak Guillaume
-4. Muratet Lucas
-
+### Contributors of this project :
+```javascript
+ ♣️ - AUTANT Felix (Content)
+ 
+ ♣️ - KUSIAK Guillaume (Development)
+```
+- Kusiak Guillaume
+```cpp
+ 📃 Content of pages
+```
 
 ![image](./images/normal/background.jpg)
 
