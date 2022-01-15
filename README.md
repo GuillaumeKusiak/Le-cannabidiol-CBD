@@ -5,15 +5,14 @@
 ### 🔗 Web Site link : [Le Cannabidiol / Accueil](https://gui-univ.github.io/Le-cannabidiol-CBD/)
 
 ### Contributors of this project :
-```javascript
- ♣️ - AUTANT Felix (Content)
+ 👨‍🎓 - AUTANT Felix `Content`
  
- ♣️ - KUSIAK Guillaume (Development)
-```
-- Kusiak Guillaume
-```cpp
- 📃 Content of pages
-```
+ 👨‍🎓 - KUSIAK Guillaume `Development`
+
+### Files architecture :
+1. 📁 `css` : for cascading style sheet
+2. 📁 `js` : for JavaScript
+3. 📁 `images`: for all images
 
 ![image](./images/normal/background.jpg)
 
