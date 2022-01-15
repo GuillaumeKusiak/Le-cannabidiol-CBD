@@ -1,18 +1,28 @@
 # Web Site : 🌿 Le Cannabidiol CBD
 > Web Site for the R1.02 ressource which that is entitled "Web interface development" (BUT Informatique of Aix-En-Provence)
+---
 #### Mark : 17 / 20
 
 ### 🔗 Web Site link : [Le Cannabidiol / Accueil](https://gui-univ.github.io/Le-cannabidiol-CBD/)
 
-### Contributors of this project :
- 👨‍🎓 - AUTANT Felix `Content`
- 
- 👨‍🎓 - KUSIAK Guillaume `Development`
+## More about the project
+As I said before, this project is in link with the R1.02 ressource where the purpose was to create a web interface about a domain or a topic which was attractive for us. So we decided to realize a reply of sales site about Cannabidiol, better known as CBD. I realized all part of interface development and content of pages. During the project I used the `css` language (cascading style sheet) and `html` (HyperText Markup Language) for the pages architectures. I also used `javascript` for the implementation of the second style of the web site. It contains a dark theme and also some modifications on the pages.
 
-### Files architecture :
+## Contributor of this project :
+ 👨‍🎓 - KUSIAK Guillaume `Development and content`
+
+## Files architecture :
 1. 📁 `css` : for cascading style sheet
 2. 📁 `js` : for JavaScript
 3. 📁 `images`: for all images
 
-![image](./images/normal/background.jpg)
-
+##  Languages used :
+```javascript
+- HTML
+- CSS
+- JavaScript
+```
+### Markup Validation Service (W3C)
+- ✅ HTML (no errors or warnings)
+[W3C](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgui-univ.github.io%2FLe-cannabidiol-CBD%2F)
+- ✅ CSS (no errors)
