@@ -3,7 +3,7 @@
 ---
 #### Mark : 17 / 20
 
-### 🔗 Web Site link : [Le Cannabidiol / Accueil](https://gui-univ.github.io/Le-cannabidiol-CBD/)
+### 🔗 Web Site link : [Le Cannabidiol / Accueil](https://guillaumekusiak.github.io/Le-cannabidiol-CBD/)
 
 ## More about the project
 As I said before, this project is in link with the R1.02 ressource where the purpose was to create a web interface about a domain or a topic which was attractive for us. So we decided to realize a reply of sales site about Cannabidiol, better known as CBD. I realized all part of interface development and content of pages. During the project I used the `css` language (cascading style sheet) and `html` (HyperText Markup Language) for the pages architectures. I also used `javascript` for the implementation of the second style of the web site. It contains a dark theme and also some modifications on the pages.
