@@ -16,6 +16,9 @@ As I said before, this project is in link with the R1.02 ressource where the pur
 2. 📁 `js` : for JavaScript
 3. 📁 `images`: for all images
 
+## What I produced
+> Building web site (FrontEnd - BackEnd)
+
 ##  Languages used :
 <img align="left" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="48px">
 <img align="left" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="48px">
