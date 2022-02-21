@@ -17,11 +17,10 @@ As I said before, this project is in link with the R1.02 ressource where the pur
 3. 📁 `images`: for all images
 
 ##  Languages used :
-```javascript
-- HTML
-- CSS
-- JavaScript
-```
+<img align="left" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="48px">
+<img align="left" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="48px">
+<img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" width="48px">
+
 ### Markup Validation Service (W3C)
 - ✅ HTML (no errors or warnings)
 [W3C](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgui-univ.github.io%2FLe-cannabidiol-CBD%2F)
